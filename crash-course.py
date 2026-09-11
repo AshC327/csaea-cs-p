@@ -75,3 +75,69 @@ print (end + "\n" + "\n")
 print (math.sqrt(14))
 print(math.ceil(3.14))
 print(math.floor(5.87))
+print(math.pow(4,3))
+
+ #conditionals
+
+ # if elif else
+
+t = True
+
+f = False
+
+if t:
+    print("Reached the first condition")
+else:
+    print("no")
+
+if f:
+    print(a)
+elif f:
+    print(b)
+else:
+    print(c)
+
+
+if 1 > 8 or 8 != 8:
+    print(a)
+elif 6 == 6 and 2 == 3:
+    print(b)
+else:
+    print(c)
+
+
+#lists
+
+nums = [27, 31, 56, 72]
+
+print(nums)
+
+print(nums[0])
+
+print(nums[-3])
+
+print(nums[0] + nums[-2])
+
+nums[1] = 67
+
+print(nums)
+
+#list methods
+
+words = []
+
+words.append("hi")
+
+words.append("hello")
+
+words.append("chao")
+
+print(words)
+
+words.insert(0, "newer word")
+
+print(words)
+
+length = len(words)
+
+print(length)
