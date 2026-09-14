@@ -141,3 +141,35 @@ print(words)
 length = len(words)
 
 print(length)
+
+#iteration
+
+#for loop
+
+for z in range(5):
+    print(z)
+
+animals = ("sheep", "Deer", "Moose")
+
+print(f"list{animals}")
+
+for animal in animals: 
+    print(f"we saw a {animal}")
+
+nums = (5.1, 6.7, 2.7, 8.4)
+
+for number in nums:
+    print(number + 1)
+
+
+x = 5
+
+while x < 10:
+    print(x)
+    x += 1
+
+t = True
+f = False
+
+while t and f:
+    print("hi")
