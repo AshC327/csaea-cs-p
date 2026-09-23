@@ -10,7 +10,7 @@ print("5"*3,"5"+"5")
 #idk (555,55)
 
 print(2**4,math.pow(2,4))
-#8,16
+#8,16 (16, 16.0)
 
 print(True+True+True)
 #True (3)
@@ -32,9 +32,10 @@ print(nums[-len(nums)])
 
 for i in range(10,0,-3):
     print(i)
-#10,
+#(10,7,4,1)
 
 x = 5
 while x < 10:
     x += 2
     print(x)
+#(7,9,11)
