@@ -48,41 +48,52 @@ else:
 
 #20----------------------------------------------------
 
-sl = 55
-s = 71
+speedlimit = 55
+speed = 71
 
-if s > sl:
+if speed > speedlimit:
     print("Fine: $100")
 else:
     print("Speed limit: okay")
 
 #7----------------------------------------------------
 
-h = 50
-a = 8
-ha = True
+hieght = True
+age = True
+withparent = True
 
-hh = h>=48
-aa = a<10
 
-if hh is True:
-    hh = True
-else:
-    hh = False
-
-if aa is True:
-    aa = True
-else:
-    aa = False
-
-if ha is aa:
-    z = True
-else:
-    z = False
-
-if hh == aa == z:
+if hieght and age and withparent:
     print("You may ride")
 else:
     print("You may not ride")
 
-#----------------------------------------------------
+#1----------------------------------------------------
+bill = 50
+tip = 0.2*bill
+tips = print("tip =")
+print(tip)
+total = tip+bill
+print("total =")
+print(total)
+
+#8----------------------------------------------------
+first = "Ada"
+last = "Lovelace"
+school = "CSAEA"
+
+print(f"Hello, my name is {first} {last} from {school}")
+
+#6-------------------------------------------------------
+
+plate = 2242
+if plate%2==0:
+    print("park on east side")
+else:
+    print("park on west side")
+
+#9------------------------------------------------------------
+
+cart = [12, 5, 30, 8]
+print(f"list:{cart}")
+print(f" Items = {(len(cart))}")
