@@ -24,8 +24,8 @@ print(f"I see, {color} is a good choice")
 
 print("\nChallenge 2:")
 
-num1 = input("Hey, can I get a number: ")
-num2 = input("How about one more: ")
+num1 = int(input("Hey, can I get a number: "))
+num2 = int(input("How about one more: "))
 result = num1 + num2
 print(result)
 
@@ -43,6 +43,7 @@ print("\nChallenge 4:")
 #custom sided dice
 
 dice = (f"Give me a number for a sided die: ")
+
 
 import random
 
