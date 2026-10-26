@@ -75,7 +75,7 @@ else:
 
 print("\n\nChallenge 1\n")
 
-#age = input("Please input your age: ")
+age = input("Please input your age: ")
 age = int(age)
 
 if age >= 18:
@@ -88,9 +88,6 @@ else:
 print("\nChallenge 2\n")
 
 year = 1900
-
-print(year/100)
-
 
 if year%400 == 0 :
     print(f"{year} is a leap year.")
