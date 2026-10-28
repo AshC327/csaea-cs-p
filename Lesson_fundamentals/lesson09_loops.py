@@ -75,7 +75,7 @@ for i in range(1,11):
         pass #place holder
     print("Number:", i)
 
-print("\nChallenge 1\n")
+print("\nChallenge 2\n")
 
 user_guess = input("Please input a number as your guess: ")
 
