@@ -73,10 +73,10 @@ list = []
 
 def doubler(number, times):
     for i in range(times):
-        temp = number
-        num = num * 2
+        list.append(number)
+        number = number * 2
 
-one = 1
+one = 2
 two = 5
 test = doubler(one,two)
 print(list)
